@@ -1,5 +1,4 @@
 function extractClassName(sessionTitle) {
-  //
   const month = {
     Januar: "01",
     Februar: "02",
@@ -34,17 +33,3 @@ function extractClassName(sessionTitle) {
 
   return result;
 }
-
-console.log(extractClassName("Live-Session Class 2022 September"));
-
-console.log(extractClassName("Live-Session Class 2023 Januar"));
-
-console.log(extractClassName("Live-Session Class 2022 März"));
-
-console.log(extractClassName("Live-Session Class 2022 Maerz"));
-
-console.log(extractClassName("Live-Session Class 1 X"));
-
-console.log(extractClassName("Live-Session Class 2222222 Juli"));
-
-console.log(extractClassName("Live-Session Class 2022"));
